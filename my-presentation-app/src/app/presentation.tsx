@@ -153,7 +153,7 @@ export default function Component() {
           <div className="font-mono text-sm text-green-500 mb-4">
             {'> git log --graph --pretty=format:"%h %s" --abbrev-commit'}
           </div>
-          <h1 className="text-4xl font-bold text-center mb-8 font-mono text-cyan-400">8-Week Git History 📅</h1>
+          <h1 className="text-4xl font-bold text-center mb-8 font-mono text-cyan-400">9-Week Git History 📅</h1>
           <div className="space-y-4 max-h-96 overflow-y-auto">
             {[
               {
@@ -203,6 +203,12 @@ export default function Component() {
                 focus: "Integration & AI",
                 skills: "Full-stack Integration, RAG, LLM, Deployment",
                 commit: "b2c3d4e",
+              },
+              {
+                week: "Week 9",
+                focus: "Testing & Documentation",
+                skills: "Unit Testing (80% Coverage), Swagger API Documentation, Technical Documentation",
+                commit: "f5g6h7i",
               },
             ].map((item, index) => (
               <div
