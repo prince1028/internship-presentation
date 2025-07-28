@@ -44,7 +44,8 @@ export default function Component() {
             <Cloud className="w-8 h-8 text-purple-400" />
           </div>
           <div className="font-mono text-green-400 text-sm">
-            {"// A transformative journey from avoiding code to building full-stack applications"}
+            {/* A transformative journey from avoiding code to building full-stack applications */}
+            &quot;A transformative journey from avoiding code to building full-stack applications&quot;
           </div>
         </div>
       ),
@@ -75,7 +76,7 @@ export default function Component() {
               </div>
             </div>
           </div>
-          <div className="text-center font-mono text-green-400">{"// Ready to git commit to change..."}</div>
+          <div className="text-center font-mono text-green-400">{/* Ready to git commit to change... */}&quot;Ready to git commit to change...&quot;</div>
         </div>
       ),
     },
@@ -224,7 +225,7 @@ export default function Component() {
                     {item.commit} - {item.week}
                   </div>
                   <h3 className="text-lg font-semibold text-cyan-400">{item.focus}</h3>
-                  <p className="text-green-300 text-sm">// {item.skills}</p>
+                  <p className="text-green-300 text-sm">{/* {item.skills} */}{item.skills}</p>
                 </div>
               </div>
             ))}
@@ -433,7 +434,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-blue-400 mb-4 font-mono">Kuldeep Jangir</h3>
                 <p className="text-blue-300 mb-4 font-mono">
-                  <strong>// Technical Mentor & Guide</strong>
+                  <strong>{/* Technical Mentor & Guide */}&quot;Technical Mentor & Guide&quot;</strong>
                 </p>
                 <div className="text-blue-300 font-mono text-sm">
                   <div>{"const mentor = {"}</div>
@@ -450,7 +451,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-pink-400 mb-4 font-mono">Manaswi Sood</h3>
                 <p className="text-pink-300 mb-4 font-mono">
-                  <strong>// Leadership & Inspiration</strong>
+                  <strong>{/* Leadership & Inspiration */}&quot;Leadership & Inspiration&quot;</strong>
                 </p>
                 <div className="text-pink-300 font-mono text-sm">
                   <div>{"const leader = {"}</div>
@@ -469,11 +470,11 @@ export default function Component() {
               <h3 className="text-xl font-bold text-green-400 mb-4 font-mono">Support System</h3>
               <div className="grid md:grid-cols-2 gap-4 font-mono text-sm">
                 <div>
-                  <h4 className="font-semibold text-green-300 mb-2">// Colleagues at United Techlabs</h4>
+                  <h4 className="font-semibold text-green-300 mb-2">{/* Colleagues at United Techlabs */}&quot;Colleagues at United Techlabs&quot;</h4>
                   <p className="text-green-400">team_members && colleagues;</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-green-300 mb-2">// Friends & Support Pillars</h4>
+                  <h4 className="font-semibold text-green-300 mb-2">{/* Friends & Support Pillars */}&quot;Friends & Support Pillars&quot;</h4>
                   <div className="text-green-400">college_friends.forEach(friend =&gt; support++);</div>
                 </div>
               </div>
@@ -528,9 +529,9 @@ export default function Component() {
               {"while (roadAhead.isLong()) { curiosity.drive(); }"}
             </div>
             <div className="text-lg text-gray-300 font-mono">
-              {"// From changePath(avoidCode) to findComfort(development)"}
+              {/* From changePath(avoidCode) to findComfort(development) */}&quot;From changePath(avoidCode) to findComfort(development)&quot;
             </div>
-            <div className="text-lg text-gray-300 font-mono">{"// This internship has been truly transformative"}</div>
+            <div className="text-lg text-gray-300 font-mono">{/* This internship has been truly transformative */}&quot;This internship has been truly transformative&quot;</div>
           </div>
         </div>
       ),
