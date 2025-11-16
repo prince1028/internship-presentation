@@ -34,7 +34,7 @@ export default function Component() {
             </h1>
             <div className="font-mono text-2xl text-cyan-400">{"class Internship extends Experience {"}</div>
             <h2 className="text-3xl font-semibold text-gray-300 font-mono">United Techlabs</h2>
-            <p className="text-xl text-gray-400 font-mono">May 2024 - July 2024</p>
+            <p className="text-xl text-gray-400 font-mono">May 2024 - November 2024</p>
             <div className="font-mono text-2xl text-cyan-400">{"}"}</div>
           </div>
           <div className="flex items-center space-x-6 text-lg">
@@ -154,62 +154,50 @@ export default function Component() {
           <div className="font-mono text-sm text-green-500 mb-4">
             {'> git log --graph --pretty=format:"%h %s" --abbrev-commit'}
           </div>
-          <h1 className="text-4xl font-bold text-center mb-8 font-mono text-cyan-400">9-Week Git History 📅</h1>
+          <h1 className="text-4xl font-bold text-center mb-8 font-mono text-cyan-400">Monthly Git History 📅</h1>
           <div className="space-y-4 max-h-96 overflow-y-auto">
             {[
               {
-                week: "Week 1",
+                month: "May",
                 focus: "Onboarding & Git",
                 skills: "Outlook, Slack, GitHub, Basic JS/HTML",
                 commit: "a1b2c3d",
               },
               {
-                week: "Week 2",
+                month: "June",
                 focus: "Design & Architecture",
                 skills: "Figma, REST APIs, System Architecture",
                 commit: "d4e5f6g",
               },
               {
-                week: "Week 3",
+                month: "July",
                 focus: "Databases & Web Fundamentals",
                 skills: "NoSQL, MongoDB, API Pagination",
                 commit: "h7i8j9k",
               },
               {
-                week: "Week 4",
-                focus: "Cloud & Backend",
-                skills: "AWS Lambda, S3, DynamoDB, CSS, CI/CD",
+                month: "August",
+                focus: "Mobile Development (Flutter)",
+                skills: "Flutter, Dart, 'Continue with Apple' button",
                 commit: "l0m1n2o",
               },
               {
-                week: "Week 5",
-                focus: "Authentication",
-                skills: "Hashing, OAuth, OTP Services, Tokens",
+                month: "September",
+                focus: "Backend API & Cloud Storage",
+                skills: "Backend API for profile photo upload, S3 bucket integration",
                 commit: "p3q4r5s",
               },
               {
-                week: "Week 6",
-                focus: "Frontend Mastery",
-                skills: "Next.js, Cookies, Pull Requests, ShadCN",
+                month: "October",
+                focus: "Frontend & Repo Management",
+                skills: "Complete frontend development, Managing mobile, models (LLM), frontend, and backend repositories",
                 commit: "t6u7v8w",
               },
               {
-                week: "Week 7",
-                focus: "Golang & Performance",
-                skills: "Go Programming, URL Handling, Mobile Debugging, Performance Tab Optimization",
+                month: "November",
+                focus: "Bedrock Integration",
+                skills: "AWS Bedrock integration for LLM",
                 commit: "x9y0z1a",
-              },
-              {
-                week: "Week 8",
-                focus: "Integration & AI",
-                skills: "Full-stack Integration, RAG, LLM, Deployment",
-                commit: "b2c3d4e",
-              },
-              {
-                week: "Week 9",
-                focus: "Testing & Documentation",
-                skills: "Unit Testing (80% Coverage), Swagger API Documentation, Technical Documentation",
-                commit: "f5g6h7i",
               },
             ].map((item, index) => (
               <div
@@ -217,15 +205,15 @@ export default function Component() {
                 className="flex items-center space-x-4 p-4 bg-gray-800 rounded-lg border border-gray-700 font-mono"
               >
                 <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-cyan-500 rounded-full flex items-center justify-center text-black font-bold">
-                  {index + 1}
+                  {item.month}
                 </div>
                 <div className="flex-1">
                   <div className="text-sm text-gray-400 mb-1">
                     <GitBranch className="w-4 h-4 inline mr-1" />
-                    {item.commit} - {item.week}
+                    {item.commit}
                   </div>
                   <h3 className="text-lg font-semibold text-cyan-400">{item.focus}</h3>
-                  <p className="text-green-300 text-sm">{/* {item.skills} */}{item.skills}</p>
+                  <p className="text-green-300 text-sm">{item.skills}</p>
                 </div>
               </div>
             ))}
@@ -552,7 +540,7 @@ export default function Component() {
           <div className="space-y-4 font-mono">
             <div className="text-cyan-400">{"const internship = {"}</div>
             <div className="ml-4 text-gray-300">{'company: "United Techlabs",'}</div>
-            <div className="ml-4 text-gray-300">{'duration: "May 2024 - July 2024",'}</div>
+            <div className="ml-4 text-gray-300">{'duration: "May 2024 - November 2024",'}</div>
             <div className="ml-4 text-gray-300">{'type: "transformation, learning, growth"'}</div>
             <div className="text-cyan-400">{"};"}</div>
           </div>
